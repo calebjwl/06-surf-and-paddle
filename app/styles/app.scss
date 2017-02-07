@@ -3,5 +3,17 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+$c-primary: #1d75b6;
+$c-text-primary: #fefefe;
+$c-text-secondary: #163350;
+
+
 @import 'box-sizing';
-@import 'reset';
+@import 'components/reset';
+@import 'components/banner';
+
+.section {
+}
+
+.container {
+}

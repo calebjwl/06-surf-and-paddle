@@ -1,0 +1,62 @@
+.banner {
+  max-width: 100%;
+  background: $c-primary;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  justify-content: space-between;
+  width: 80%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__icon {
+      max-width: 4rem;
+    }
+
+    &__home-text {
+      margin: 0 1rem;
+      color: $c-text-secondary;
+    }
+  }
+
+  &-links {
+    align-items: center;
+  }
+
+  .link {
+
+  }
+
+  .search-box {
+
+  }
+}
+
+.hero {
+  background: $c-primary;
+  // position: relative;
+
+  &__bg-pic {
+    width: 100%;
+    height: 10vh;
+  }
+
+  &__text-large {
+    margin: 0;
+    color: $c-text-primary;
+    font-size: 5rem;
+    text-transform: uppercase;
+  }
+
+  &__text-small {
+    color: $c-text-secondary;
+  }
+}
