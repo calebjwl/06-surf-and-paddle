@@ -1,16 +1,18 @@
 .banner {
+  position: relative;
   max-width: 100%;
-  background: $c-primary;
+  background: linear-gradient($c-transparent-blue, $c-transparent-blue), url('/images/wave-bg.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar {
   display: flex;
-  position: absolute;
-  left: 50%;
-  justify-content: space-between;
-  width: 80%;
-  transform: translateX(-50%);
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
   text-transform: uppercase;
+
 
   &-logo {
     display: flex;
@@ -18,7 +20,7 @@
     justify-content: space-between;
 
     &__icon {
-      max-width: 4rem;
+      max-width: 3rem;
     }
 
     &__home-text {
@@ -28,11 +30,11 @@
   }
 
   &-links {
-    align-items: center;
+
   }
 
   .link {
-
+    margin: .5rem;
   }
 
   .search-box {
@@ -41,22 +43,20 @@
 }
 
 .hero {
-  background: $c-primary;
-  // position: relative;
-
-  &__bg-pic {
-    width: 100%;
-    height: 10vh;
-  }
+    display: block;
+    text-align: center;
+    padding: 10rem;
 
   &__text-large {
     margin: 0;
     color: $c-text-primary;
-    font-size: 5rem;
+    font-size: 5.5rem;
+    text-shadow: 1px 1px rgba(#000, 0.5);
     text-transform: uppercase;
   }
 
   &__text-small {
     color: $c-text-secondary;
+    margin: 0;
   }
 }
