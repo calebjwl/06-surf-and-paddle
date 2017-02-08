@@ -5,13 +5,15 @@
 // @import 'font-awesome';
 $c-primary: #1d75b6;
 $c-text-primary: #fefefe;
-$c-text-secondary: #163350;
+$c-text-secondary: #254361;
+$c-text-links: #9ba9b6;
 $c-transparent-blue: rgba(29, 117 , 182, 0.75);
 
 
 @import 'box-sizing';
 @import 'components/reset';
 @import 'components/banner';
+@import 'components/middle';
 
 .section {
 }
