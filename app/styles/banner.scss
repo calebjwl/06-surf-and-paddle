@@ -1,9 +1,9 @@
 .banner {
   position: relative;
   max-width: 100%;
-  background: linear-gradient($c-transparent-blue, $c-transparent-blue), url('/images/wave-bg.jpg');
-  background-size: cover;
+  background: $bg-transparent, url('/images/wave-bg.jpg');
   background-position: center;
+  background-size: cover;
 }
 
 .navbar {
@@ -43,9 +43,12 @@
 }
 
 .hero {
-    display: block;
-    text-align: center;
-    padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+
 
   &__text-large {
     margin: 0;

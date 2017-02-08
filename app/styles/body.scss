@@ -1,16 +1,17 @@
-.middle {
+.body {
   display: flex;
   justify-content: space-around;
   padding: 4rem;
 }
 
 .article {
-  width: 100%;
   display: flex;
   justify-content: space-around;
+  width: 100%;
 
   &-content {
     margin-right: 3rem;
+
     &__header {
 
     }
@@ -25,12 +26,47 @@
 
     &__paragraph-text {
       margin: 0;
-      // color: $c-text-secondary;
+      color: $c-text-secondary;
       font-size: 1rem;
     }
 
     &__btns {
+      display: flex;
+    }
+  }
+  &-sidebar {
+    &__profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+    }
 
+    &__ad {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-pic {
+        width: 20rem;
+        padding: 2rem 0;
+        background: url('/images/ad.jpg');
+      }
+    }
+
+    &__about {
+
+    }
+
+    &__info {
+
+      &_heading {
+
+      }
+
+      &_text {
+
+      }
     }
   }
 }
@@ -68,7 +104,6 @@
   display: flex;
   align-items: center;
   margin: 0.5rem;
-  float: left;
   background: $c-button-light-2;
 
   &_icon {
@@ -82,7 +117,6 @@
   display: flex;
   align-items: center;
   margin: 0.5rem;
-  float: left;
   background: $c-button-dark-2;
 
   &_icon {
@@ -98,6 +132,22 @@
   font-size: 0.8rem;
 }
 
-.share {
+.avatar-large {
+  width: 5rem;
+  border-radius: 50%;
+}
 
+.name-large {
+  text-transform: uppercase;
+  color: $c-primary;
+  margin: 1rem 0 0.2rem 0;
+}
+
+.socialmedia-links {
+  // text-align: center;
+  &_text {
+    padding: 1rem;
+    font-size: .9rem;
+    color: $c-text-links;
+  }
 }

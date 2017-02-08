@@ -3,23 +3,27 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
 $c-primary: #1d75b6;
 $c-text-primary: #fefefe;
 $c-text-secondary: #254361;
 $c-text-links: #9ba9b6;
-$c-transparent-blue: rgba(29, 117 , 182, 0.75);
+$c-transparent-dark: rgba($c-text-secondary, 0.75);
+$c-transparent-blue: rgba($c-primary, 0.75);
 
 $c-button-light-1: #7a7b7e;
 $c-button-light-2: #93a0bb;
 $c-button-dark-1: #24448b;
 $c-button-dark-2: #2d5abb;
 
+$bg-transparent: linear-gradient($c-transparent-blue, $c-transparent-dark);
+
 
 
 @import 'box-sizing';
-@import 'components/reset';
-@import 'components/banner';
-@import 'components/middle';
+@import 'reset';
+@import 'banner';
+@import 'body';
 
 .section {
 }
