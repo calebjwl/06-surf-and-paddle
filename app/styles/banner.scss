@@ -5,7 +5,6 @@
   background-position: center;
   background-size: cover;
   margin: 0;
-  border-bottom: $s-border-gray;
 }
 
 .navbar {
@@ -15,6 +14,10 @@
   padding: 0.5rem;
   text-transform: uppercase;
 
+  a {
+    color: $c-text-secondary;
+    text-decoration: none;
+  }
 
   &-logo {
     display: flex;
