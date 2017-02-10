@@ -1,13 +1,11 @@
 .body {
-  display: flex;
-  justify-content: space-around;
-  padding: 4rem;
+  max-width: 60rem;
+  padding: 1rem;
 }
 
 .article {
   display: flex;
   justify-content: space-around;
-  width: 100%;
 
   &-content {
     margin-right: 3rem;
@@ -34,6 +32,7 @@
       display: flex;
     }
   }
+
   &-sidebar {
     &__profile {
       display: flex;
@@ -45,23 +44,31 @@
     &__ad {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-end;
 
       &-pic {
-        width: 20rem;
+        background: $bg-transparent, url('/images/ad.jpg') no-repeat;
+        width: 100%;
+        height: 25rem;
+        background-position: center;
+        background-size: auto;
         padding: 2rem 0;
-        background: url('/images/ad.jpg');
       }
     }
 
     &__about {
-
+      margin: 0.5rem;
+      color: $c-text-links;
+      font-size: 0.8rem;
+      text-decoration: underline;
     }
 
     &__info {
 
       &_heading {
-
+        color: $c-primary;
+        font-size: 1rem;
+        text-transform: uppercase;
       }
 
       &_text {
@@ -81,12 +88,15 @@
 
 .caption {
   display: flex;
+  align-items: center;
   font-size: .9rem;
 
   &_avatar-small {
     width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
-    // background: linear-gradient($c-transparent-blue, $c-transparent-blue);
+    background: $bg-transparent, url('/images/git-profile.jpeg');
+    background-size: cover;
   }
 
   &_name-small {
@@ -105,6 +115,7 @@
   align-items: center;
   margin: 0.5rem;
   background: $c-button-light-2;
+  color: $c-text-primary;
 
   &_icon {
     width: 2rem;
@@ -118,6 +129,7 @@
   align-items: center;
   margin: 0.5rem;
   background: $c-button-dark-2;
+  color: $c-text-primary;
 
   &_icon {
     width: 2rem;
@@ -128,12 +140,14 @@
 
 .text {
   margin: 0 0.8rem;
-  color: $c-text-primary;
   font-size: 0.8rem;
 }
 
 .avatar-large {
+  background: $bg-transparent, url('/images/git-profile.jpeg');
+  background-size: cover;
   width: 5rem;
+  height: 5rem;
   border-radius: 50%;
 }
 
@@ -144,9 +158,11 @@
 }
 
 .socialmedia-links {
-  // text-align: center;
+  display: flex;
+  justify-content: space-between;
+
   &_text {
-    padding: 1rem;
+    margin: 1rem;
     font-size: .9rem;
     color: $c-text-links;
   }
