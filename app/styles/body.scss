@@ -30,7 +30,7 @@
         text-transform: uppercase;
         font-size: 1.7rem;
         color: $c-primary;
-        border-left: $s-border-gray;
+          border-left: $s-border-gray;
         padding-left: 1rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
@@ -39,6 +39,7 @@
   }
 
   &-sidebar {
+
     &__profile {
       display: flex;
       flex-direction: column;
@@ -72,12 +73,12 @@
 
       &_heading {
         color: $c-primary;
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-transform: uppercase;
       }
 
       &_text {
-
+        color: $c-text-links;
       }
     }
   }
