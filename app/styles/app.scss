@@ -16,11 +16,9 @@ $c-button-light-2: #93a0bb;
 $c-button-dark-1: #24448b;
 $c-button-dark-2: #2d5abb;
 
-$s-border-gray: rgba(#a6a6a6,.3) 0.2rem solid;
+$s-border-gray: rgba(#a6a6a6, 0.3) 0.2rem solid;
 
 $bg-transparent: linear-gradient($c-transparent-blue, $c-transparent-blue);
-
-
 
 @import 'box-sizing';
 @import 'reset';
@@ -29,11 +27,10 @@ $bg-transparent: linear-gradient($c-transparent-blue, $c-transparent-blue);
 @import 'footer';
 
 .section {
-
 }
 
 .container {
-  margin: 0;
   display: flex;
   justify-content: center;
+  margin: 0;
 }

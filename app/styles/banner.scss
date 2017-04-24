@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: space-between;
   width: 60rem;
+  margin: 0.5rem 0;
   text-transform: uppercase;
 
   a {
@@ -28,7 +29,7 @@
     justify-content: space-between;
 
     &__icon {
-      max-width: 3rem;
+      max-width: 2rem;
     }
 
     &__home-text {
@@ -67,7 +68,7 @@
   }
 
   &__text-small {
-    color: $c-text-secondary;
     margin: 0;
+    color: $c-text-secondary;
   }
 }
