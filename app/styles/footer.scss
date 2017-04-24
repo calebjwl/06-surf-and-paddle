@@ -13,14 +13,17 @@
   }
 
   &__bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-    padding-right: 5rem;
-    padding-left: 5rem;
     background: $c-text-secondary;
-    color: $c-text-links;
+
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 60rem;
+      margin: 0 auto;
+      color: $c-text-links;
+    }
   }
 }
 
