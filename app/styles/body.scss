@@ -15,25 +15,17 @@
     &__header {
     }
 
-    &__paragraph-text {
-      margin: 0;
-      color: $c-text-secondary;
-      font-size: 1rem;
-    }
-
     &__btns {
       display: flex;
     }
 
     &__accent {
       &-text {
-        text-transform: uppercase;
         font-size: 1.7rem;
+        border-left: $s-border-gray;
         color: $c-primary;
-          border-left: $s-border-gray;
-        padding-left: 1rem;
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
+        text-transform: uppercase;
+        padding: 0.5rem 0 0.5rem 1rem;
       }
     }
   }
@@ -82,6 +74,13 @@
       }
     }
   }
+}
+
+.paragraph-text {
+  margin: 0;
+  color: $c-text-secondary;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .headline {

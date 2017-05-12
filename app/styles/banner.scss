@@ -5,8 +5,7 @@
   align-items: center;
   max-width: 100%;
   margin: 0;
-  background: $bg-transparent, url('/images/wave-bg.jpg');
-  background-position: center;
+  background: url('/images/bg-1.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
@@ -19,7 +18,7 @@
   text-transform: uppercase;
 
   a {
-    color: $c-text-secondary;
+    color: $c-text-primary;
     text-decoration: none;
   }
 
@@ -34,7 +33,7 @@
 
     &__home-text {
       margin: 0 1rem;
-      color: $c-text-secondary;
+      color: $c-text-primary;
     }
   }
 
@@ -45,10 +44,10 @@
   .link {
     margin: 0.5rem;
   }
+}
 
-  .search-box {
-
-  }
+.icon {
+  color: $c-text-primary;
 }
 
 .hero {
@@ -58,17 +57,14 @@
   justify-content: center;
   padding: 10rem;
 
-
   &__text-large {
     margin: 0;
     color: $c-text-primary;
     font-size: 5.5rem;
-    text-shadow: 1px 1px rgba(#000, 0.5);
-    text-transform: uppercase;
   }
 
   &__text-small {
     margin: 0;
-    color: $c-text-secondary;
+    color: $c-text-primary;
   }
 }
