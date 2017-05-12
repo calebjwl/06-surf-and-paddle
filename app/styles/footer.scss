@@ -21,9 +21,14 @@
       align-items: center;
       justify-content: space-between;
       max-width: 60rem;
+      height: 10vh;
       margin: 0 auto;
       color: $c-text-links;
     }
+  }
+
+  &-text {
+    margin-left: 0.3rem;
   }
 }
 
@@ -64,12 +69,12 @@
 
     &:before {
       display: block;
-      background: $c-transparent-orange;
       position: absolute;
-      left: 0;
       right: 0;
+      left: 0;
       width: 100%;
       height: 100%;
+      background: $c-transparent-orange;
       content: "";
     }
 
@@ -84,12 +89,12 @@
 
 }
 
-.iron-yard {
+.rights {
   display: flex;
   align-items: center;
 
   &__logo {
-    width: 6rem;
+    width: 2rem;
   }
 }
 
