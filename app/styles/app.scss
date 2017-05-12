@@ -5,20 +5,14 @@
 // @import 'font-awesome';
 
 $c-primary: #D98D78;
+$c-secondary: #e0b5a9;
 $c-text-primary: #fefefe;
 $c-text-secondary: #223746;
 $c-text-links: #9ba9b6;
 $c-transparent-dark: rgba($c-text-secondary, 0.6);
 $c-transparent-orange: rgba($c-primary, 0.4);
 
-$c-button-light-1: #7a7b7e;
-$c-button-light-2: #93a0bb;
-$c-button-dark-1: #24448b;
-$c-button-dark-2: #2d5abb;
-
 $s-border-gray: rgba(#a6a6a6, 0.3) 0.2rem solid;
-
-
 $bg-transparent: linear-gradient($c-transparent-orange, $c-transparent-orange);
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
