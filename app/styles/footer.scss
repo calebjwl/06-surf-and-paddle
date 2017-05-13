@@ -79,10 +79,12 @@
     }
 
     &:hover:before {
+      transition-duration: 1s;
       background: none;
     }
 
     &:hover + .post__title {
+      transition-duration: 1s;
       color: $c-text-primary;
     }
   }
@@ -107,8 +109,8 @@
   }
 
   &__item {
-    color: $c-text-links;
     padding-right: 1rem;
     padding-left: 1rem;
+    color: $c-text-links;
   }
 }
