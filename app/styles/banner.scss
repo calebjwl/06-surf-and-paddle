@@ -1,0 +1,70 @@
+.banner {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+  background: url('/images/bg-1-min.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60rem;
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+
+  a {
+    color: $c-text-primary;
+    text-decoration: none;
+  }
+
+  &-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__icon {
+      max-width: 2rem;
+    }
+
+    &__home-text {
+      margin: 0 1rem;
+      color: $c-text-primary;
+    }
+  }
+
+  &-links {
+
+  }
+
+  .link {
+    margin: 0.5rem;
+  }
+}
+
+.icon {
+  color: $c-text-primary;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem;
+
+  &__text-large {
+    margin: 0;
+    color: $c-text-primary;
+    font-size: 5.5rem;
+  }
+
+  &__text-small {
+    margin: 0;
+    color: $c-text-primary;
+  }
+}

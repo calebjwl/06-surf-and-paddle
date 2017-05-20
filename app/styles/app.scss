@@ -3,4 +3,30 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
+$c-primary: #D98D78;
+$c-secondary: #e0b5a9;
+$c-text-primary: #fefefe;
+$c-text-secondary: #223746;
+$c-text-links: #9ba9b6;
+$c-transparent-dark: rgba($c-text-secondary, 0.6);
+$c-transparent-orange: rgba($c-primary, 0.4);
+
+$s-border-gray: rgba(#a6a6a6, 0.3) 0.2rem solid;
+$bg-transparent: linear-gradient($c-transparent-orange, $c-transparent-orange);
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import 'box-sizing';
+@import 'reset';
+@import 'banner';
+@import 'body';
+@import 'footer';
+
+.section {
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}

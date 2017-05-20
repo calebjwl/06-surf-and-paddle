@@ -1,0 +1,168 @@
+.body {
+  max-width: 60rem;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.article {
+  display: flex;
+  justify-content: space-around;
+
+  &-content {
+    margin-right: 3rem;
+
+    &__header {
+    }
+
+    &__btns {
+      display: flex;
+      margin: 0.5rem -0.5rem;
+    }
+
+    &__accent {
+      &-text {
+        padding: 0.5rem 0 0.5rem 1rem;
+        border-left: $s-border-gray;
+        color: $c-primary;
+        font-size: 20px;
+      }
+    }
+  }
+
+  &-sidebar {
+
+    &__profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+    }
+
+    &__ad {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      &-pic {
+        width: 100%;
+        height: 25rem;
+        background-size: contain;
+        background: $bg-transparent, url('/images/ad.jpg') no-repeat;
+        background-position: center;
+        padding: 2rem 0;
+      }
+    }
+
+    &__about {
+      margin: 0.5rem;
+      color: $c-text-links;
+      font-size: 0.8rem;
+      text-decoration: underline;
+    }
+
+    &__info {
+
+      &_heading {
+        color: $c-primary;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+      }
+
+      &_text {
+        color: $c-text-links;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.paragraph-text {
+  margin: 0;
+  color: $c-text-secondary;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.headline {
+  flex-wrap: wrap;
+  margin: 0;
+  color: $c-text-secondary;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.caption {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+
+  &_avatar-small {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: url('/images/housman.png');
+    background-size: contain;
+  }
+
+  &_name-small {
+    margin-left: 0.25rem;
+    color: $c-primary;
+  }
+
+  &_time-stamp {
+    margin-left: 0.5rem;
+    color: $c-text-links;
+  }
+}
+
+.btn-light {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+  background: $c-primary;
+  color: $c-text-primary;
+  cursor: pointer;
+
+  &_icon {
+    width: 2rem;
+    padding: 0.5rem;
+    background: $c-secondary;
+  }
+}
+
+
+a {
+  color: $c-text-primary;
+  text-decoration: none;
+}
+
+.text {
+  margin: 0 0.8rem;
+  font-size: 0.8rem;
+}
+
+.avatar-large {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: $bg-transparent, url('/images/housman.png');
+  background-size: cover;
+}
+
+.name-large {
+  margin: 1rem 0 0.2rem;
+  color: $c-primary;
+  text-transform: uppercase;
+}
+
+.socialmedia-links {
+  display: flex;
+  justify-content: space-between;
+
+  &_text {
+    margin: 1rem;
+    color: $c-text-links;
+    font-size: 0.9rem;
+  }
+}
